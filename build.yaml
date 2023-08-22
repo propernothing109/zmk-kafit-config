@@ -14,8 +14,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: kafit_left nice_view_adapter  nice_view
+    shield: kafit_left
   - board: nice_nano_v2
-    shield: kafit_right nice_view_adapter nice_view
+    shield: kafit_right
   - board: nice_nano_v2
     shield: settings_reset
