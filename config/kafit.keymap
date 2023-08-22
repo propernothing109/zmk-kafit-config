@@ -44,7 +44,7 @@
 		sym_layer {
 			label = "Sym.";
 			bindings = <
-			&kp LBKT       &kp N7       &N8         &kp N9        &kp RBKT       &kp HOME &kp PG_DN        &kp PG_UP   &kp END         &trans 
+			&kp LBKT       &kp N7       &kp N8      &kp N9        &kp RBKT       &kp HOME &kp PG_DN        &kp PG_UP   &kp END         &trans 
 			&qt LCMD GRAVE &qt LCTRL N4 &qt LALT N5 &qt LSHIFT N6 &kp EQUAL      &kp LEFT &qt RSHIFT DOWN  &qt RALT UP &qt RCTRL RIGHT &trans
 			&kp SQT        &kp N1       &kp N2      &kp N3        &kp BACKSLASH  &trans   &trans           &trans      &trans          &trans
 							                   &kp N0  &kp NINUS  &trans      &trans
