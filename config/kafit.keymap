@@ -26,6 +26,15 @@
 		};
 	};
 
+    macros {
+		mpw: mpw {
+			label = "mpw";
+			compatible = "zmk,behavior-macro";
+			#binding-cells = <0>;
+			bindings = <&kp q &kp w &kp e &kp r &kp t &kp y>;
+		};
+	};
+
 	keymap {
 		compatible = "zmk,keymap";
 		// Base alpha layer
@@ -69,7 +78,7 @@
 			&trans &trans &trans &trans &trans   &trans  &trans    &trans    &trans   &trans
 			&trans &trans &trans &trans &trans   &kp K_PREV &kp K_PP     &kp K_NEXT   &kp K_STOP2 &trans
 			&trans &trans &trans &trans &trans   &kp K_MUTE &kp K_VOL_DN &kp K_VOL_UP &trans   &trans
-							     &trans &trans   &trans  &trans
+							     &trans &trans   &mpw  &trans
 
 			>;
 		};
