@@ -31,10 +31,8 @@
 	    unstick: unstick {
 			label = "ZM_unstick";
 			compatible = "zmk,behavior-macro";
-            tap-ms = <1>;
-            wait-ms = <1>;
 			#binding-cells = <0>;
-			bindings = <&kp q &kp w &kp f &kp p &kp b &kp e &kp i &kp o>;
+			bindings = <&macro_tap &kp Q &kp W &kp F &kp P &kp B &kp G &kp K &kp O>;
 		};
 	};
 
