@@ -28,7 +28,7 @@
 
     macros {
 		mpw: mpw {
-			label = "mpw";
+			label = "ZM_mpw";
 			compatible = "zmk,behavior-macro";
 			#binding-cells = <0>;
 			bindings = <&kp q &kp w &kp e &kp r &kp t &kp y>;
@@ -82,6 +82,5 @@
 
 			>;
 		};
-
 	};
 };
